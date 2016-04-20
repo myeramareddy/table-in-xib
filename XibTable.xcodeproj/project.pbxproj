@@ -13,6 +13,8 @@
 		C8E9C2BE1CC722D20008B0EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E9C2BD1CC722D20008B0EF /* Assets.xcassets */; };
 		C8E9C2C11CC722D20008B0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E9C2BF1CC722D20008B0EF /* LaunchScreen.storyboard */; };
 		C8E9C2CC1CC722D20008B0EF /* XibTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E9C2CB1CC722D20008B0EF /* XibTableTests.swift */; };
+		C8E9C2D81CC722E50008B0EF /* SimpleCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E9C2D61CC722E50008B0EF /* SimpleCustomView.swift */; };
+		C8E9C2D91CC722E50008B0EF /* SimpleCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8E9C2D71CC722E50008B0EF /* SimpleCustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C8E9C2C71CC722D20008B0EF /* XibTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XibTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E9C2CB1CC722D20008B0EF /* XibTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibTableTests.swift; sourceTree = "<group>"; };
 		C8E9C2CD1CC722D20008B0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E9C2D61CC722E50008B0EF /* SimpleCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCustomView.swift; sourceTree = "<group>"; };
+		C8E9C2D71CC722E50008B0EF /* SimpleCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		C8E9C2B51CC722D20008B0EF /* XibTable */ = {
 			isa = PBXGroup;
 			children = (
+				C8E9C2D61CC722E50008B0EF /* SimpleCustomView.swift */,
+				C8E9C2D71CC722E50008B0EF /* SimpleCustomView.xib */,
 				C8E9C2B61CC722D20008B0EF /* AppDelegate.swift */,
 				C8E9C2B81CC722D20008B0EF /* ViewController.swift */,
 				C8E9C2BA1CC722D20008B0EF /* Main.storyboard */,
@@ -178,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8E9C2C11CC722D20008B0EF /* LaunchScreen.storyboard in Resources */,
+				C8E9C2D91CC722E50008B0EF /* SimpleCustomView.xib in Resources */,
 				C8E9C2BE1CC722D20008B0EF /* Assets.xcassets in Resources */,
 				C8E9C2BC1CC722D20008B0EF /* Main.storyboard in Resources */,
 			);
@@ -197,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E9C2D81CC722E50008B0EF /* SimpleCustomView.swift in Sources */,
 				C8E9C2B91CC722D20008B0EF /* ViewController.swift in Sources */,
 				C8E9C2B71CC722D20008B0EF /* AppDelegate.swift in Sources */,
 			);
